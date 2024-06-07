@@ -459,11 +459,14 @@ public class CustomerController {
 Our Main which is outside of the customer package
 
 ```java
-import org.springframework.boot.SpringApplication;
 
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
 public class Main {
     public static void main(String[] args) {
-        SpringApplication.run(Main.class,args);
+        SpringApplication.run(Main.class, args);
     }
 }
 ```
@@ -491,7 +494,7 @@ public class CustomerService {
     public Customer getCustomer(Integer CustomerId) {
         return customerDao.selectAllCustomerById(CustomerId)
                 .orElseThrow(
-                        () -> new IllegalArgumentException("customer with %d not found".formatted(customerId)));
+                        () -> new ResourceNotFoundException("customer with [%s] not found".formatted(customerId)));
 
     }
 }
@@ -516,3 +519,22 @@ public static void main(String[] args) {
 
 # Application Context and Beans
 
+![Application_Context_and_Beans](screenshots/Application_Context_and_Beans.png)
+
+
+# Custom Exception
+create a new package called
+exception
+
+```java
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.ResponseStatus;
+
+@ResponseStatus(code = HttpStatus.NOT_FOUND)
+public class ResourceNotFoundException extends RuntimeException {
+    public ResourceNotFound(String message) {
+        super(message);
+    }
+
+}
+```
