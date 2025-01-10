@@ -1,9 +1,5 @@
 package fairshare.model;
 
-/*
- ** DO NOT CHANGE!!
- */
-
 
 import javax.money.MonetaryAmount;
 import java.time.LocalDate;

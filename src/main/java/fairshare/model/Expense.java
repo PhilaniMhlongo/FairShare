@@ -1,10 +1,5 @@
 package fairshare.model;
 
-/*
- ** DO NOT CHANGE!!
- */
-
-
 import com.google.common.base.MoreObjects;
 import com.google.common.base.Objects;
 import com.google.common.base.Strings;

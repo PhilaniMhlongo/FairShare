@@ -1,8 +1,5 @@
 package fairshare.persistence;
 
-/*
- ** DO NOT CHANGE!!
- */
 
 
 import fairshare.model.Expense;

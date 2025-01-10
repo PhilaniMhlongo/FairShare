@@ -1,8 +1,5 @@
 package fairshare.model;
 
-/*
- ** DO NOT CHANGE!!
- */
 
 import org.javamoney.moneta.Money;
 import org.junit.jupiter.api.Test;

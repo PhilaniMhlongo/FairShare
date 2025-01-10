@@ -1,9 +1,5 @@
 package fairshare.model;
 
-/*
- ** DO NOT CHANGE!!
- */
-
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;

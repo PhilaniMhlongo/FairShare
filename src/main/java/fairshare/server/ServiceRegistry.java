@@ -1,8 +1,5 @@
 package fairshare.server;
 
-/*
- ** DO NOT CHANGE!!
- */
 
 
 import com.google.common.collect.ClassToInstanceMap;

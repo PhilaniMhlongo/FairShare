@@ -1,8 +1,6 @@
 package fairshare.persistence.collectionbased;
 
-/*
- ** DO NOT CHANGE!!
- */
+
 
 
 import fairshare.model.Person;

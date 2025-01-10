@@ -1,9 +1,5 @@
 package fairshare.server;
 
-/*
- ** DO NOT CHANGE!!
- */
-
 import io.javalin.Javalin;
 import io.javalin.apibuilder.EndpointGroup;
 import io.javalin.core.security.AccessManager;
