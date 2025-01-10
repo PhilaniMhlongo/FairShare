@@ -1,5 +1,5 @@
 
-# WeShare
+# FairShare
 
 WeShare is a simple, intuitive web application for tracking and managing shared expenses. Built with Java and the Javalin framework, this app uses server-side rendering with Thymeleaf templates to dynamically display expense data. The app is styled with HTML and CSS, providing a clean and user-friendly interface.
 
@@ -47,8 +47,8 @@ WeShare is a simple, intuitive web application for tracking and managing shared 
 
 1. **Clone the Repository**  
    ```
-   git clone <repository-url>
-   cd weshare
+   git clone git@github.com:PhilaniMhlongo/FairShare.git
+   cd FairShare
    ```
 
 2. **Build the Project**  
@@ -61,7 +61,7 @@ WeShare is a simple, intuitive web application for tracking and managing shared 
 3. **Run the Application**  
    Start the server:
    ```
-   Run weshare.server.WeShareServer.main()
+   Run fairshare.server.FairShareServer.main()
    ```
    Open the app in your browser at [http://localhost:5050](http://localhost:5050).
 
@@ -74,10 +74,10 @@ weshare/
 ├── src/
 │   ├── main/
 │   │   ├── java/
-│   │   │   ├── weshare/
+│   │   │   ├── fairshare/
 │   │   │   │   ├── server/   # Javalin server setup
-│   │   │   │   ├── domain/   # Domain model (DO NOT MODIFY)
-│   │   │   │   ├── persistence/ # In-memory datastore (DO NOT MODIFY)
+│   │   │   │   ├── domain/   # Domain model 
+│   │   │   │   ├── persistence/ # In-memory datastore
 │   │   │   │   └── ...       # Other utilities
 │   │   ├── resources/
 │   │   │   ├── templates/    # Thymeleaf templates
