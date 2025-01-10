@@ -122,14 +122,4 @@ Selenium tests are included but disabled by default. As you implement the applic
 
 ---
 
-## Notes
-
-- **Do Not Modify**:
-  - Domain model and persistence store.
-  - Any test cases provided in the codebase.
-- Follow all specifications and file naming conventions.
-- Report any bugs to the curriculum team for investigation.
-
----
-
 
