@@ -61,7 +61,7 @@ WeShare is a simple, intuitive web application for tracking and managing shared 
 3. **Run the Application**  
    Start the server:
    ```
-   Run fairshare.server.FairShareServer.main()
+   mvn exec:java -Dexec.mainClass="fairshare.server.FairShareServer"
    ```
    Open the app in your browser at [http://localhost:5050](http://localhost:5050).
 
