@@ -67,27 +67,6 @@ WeShare is a simple, intuitive web application for tracking and managing shared 
 
 ---
 
-## Project Structure
-
-```
-weshare/
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   ├── fairshare/
-│   │   │   │   ├── server/   # Javalin server setup
-│   │   │   │   ├── domain/   # Domain model 
-│   │   │   │   ├── persistence/ # In-memory datastore
-│   │   │   │   └── ...       # Other utilities
-│   │   ├── resources/
-│   │   │   ├── templates/    # Thymeleaf templates
-│   │   │   └── static/       # Static files (CSS, Normalize.css)
-│   │   └── ...               # Additional resources
-├── pom.xml                   # Maven build configuration
-└── ...
-```
-
----
 
 ## Usage Instructions
 
